@@ -3,7 +3,7 @@
 A streamlined app for managing daily tasks, featuring task addition, completion toggling, and deletion.
 
 ## Installation
-1. Clone the repository: ```git clone https://github.com/kutluk-ken/todo-list-app.git```
+1. Clone the repository: ```git clone https://github.com/kutluk-ken/Todo-List.git```
 
 2. Navigate to the project directory: ```cd todo-list-app```
    
