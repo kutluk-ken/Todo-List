@@ -5,7 +5,7 @@ A streamlined app for managing daily tasks, featuring task addition, completion 
 ## Installation
 1. Clone the repository: ```git clone https://github.com/kutluk-ken/Todo-List.git```
 
-2. Navigate to the project directory: ```cd todo-list-app```
+2. Navigate to the project directory: ```cd Todo-List```
    
 3. Install dependencies: ```npm install```
 
