@@ -1,0 +1,69 @@
+/* Style the task list */
+.todoList {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This centers the children horizontally in the container */
+    justify-content: center; /* This centers the children vertically in the container */
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #030303bb;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.897);
+  }
+  
+  /* Style individual task items */
+  .todoItem {
+    color: #faf8f8;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+
+  /* Style the delete button */
+.deleteButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: rgb(184, 196, 185); /* Optional: adds a color to the trash bin icon */
+  }
+  
+  .todoListTitle {
+    color: #FFFFFF; /* Replace with the color you want */
+  }
+  
+  .todoItem input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .todoItem.completed {
+    color: #f80808; 
+  }
+  
+  /* Style the task form */
+  .todoForm {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .todoForm input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #f5f2f2;
+    border-radius: 3px;
+    margin-right: 10px;
+  }
+  
+  .todoForm button {
+    padding: 5px 10px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .todoForm button:hover {
+    background-color: #005fa3;
+  }
+  
